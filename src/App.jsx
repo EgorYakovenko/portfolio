@@ -10,7 +10,8 @@ function App() {
       {/* <HelloPage /> */}
 
       {/* <HomePage /> */}
-      <Navigation />
+      {/* <Navigation /> */}
+      <HomePage />
     </>
   );
 }

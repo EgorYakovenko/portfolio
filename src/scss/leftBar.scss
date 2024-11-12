@@ -1,3 +1,10 @@
 p {
   color: aliceblue;
 }
+
+.img {
+  // fill: rgb(52, 255, 1);
+  // stroke: rgb(0, 0, 0);
+  filter: brightness(0) saturate(100%) invert(19%) sepia(47%) saturate(6619%)
+    hue-rotate(355deg) brightness(95%) contrast(84%);
+}

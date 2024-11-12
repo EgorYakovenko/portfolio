@@ -17,10 +17,13 @@ export default function LeftBar() {
           <li>
             <p>availability</p>
             <svg>
-              {/* <!-- Добавляем изображение --> */}
-              <image href="../../public/Subtract.png" x="0" y="0" />
+              <image
+                className="img"
+                href="../../public/subtract.svg"
+                x="0"
+                y="0"
+              />
 
-              {/* <!-- Добавляем текст поверх изображения --> */}
               <text
                 x="80"
                 y="18"
