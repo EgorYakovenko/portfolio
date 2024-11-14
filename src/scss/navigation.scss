@@ -1,0 +1,15 @@
+@import "./common/mixins";
+@import "./common/vars";
+
+.navigation {
+  @include media(desktop) {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    gap: 15px;
+  }
+
+  &__nav {
+    border-left: 3px solid $_second_text_color;
+  }
+}
