@@ -3,19 +3,19 @@ import "../scss/leftBar.scss";
 export default function LeftBar() {
   return (
     <>
-      <aside>
+      <aside className="leftBar">
         <img src="../../public/foto.png" alt="" width="160" />
         <ul>
           <li>
-            <p>name</p>
-            <p>Egor Yakovenko</p>
+            <p className="leftBar__nameList">NAME</p>
+            <p className="leftBar__valueList">EGOR YAKOVENKO</p>
           </li>
           <li>
-            <p>occupation</p>
-            <p>Fullstack developer</p>
+            <p className="leftBar__nameList">OCCUPATION</p>
+            <p className="leftBar__valueList">FULLSTACK DEVELOPER</p>
           </li>
           <li>
-            <p>availability</p>
+            <p className="leftBar__nameList">AVAILABILITY</p>
             <svg>
               <image
                 className="img"
@@ -23,15 +23,15 @@ export default function LeftBar() {
                 x="0"
                 y="0"
               />
-
               <text
-                x="80"
-                y="18"
+                className="leftBar__availability"
+                x="5"
+                y="19"
                 // font-size="18"
-                fill="white"
+                // fill="white"
                 // text-anchor="middle"
               >
-                open for hire
+                OPEN FOR HIRE
               </text>
             </svg>
           </li>

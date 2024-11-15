@@ -1,5 +1,35 @@
-p {
-  color: aliceblue;
+@import "./common/mixins";
+@import "./common/vars";
+
+.leftBar {
+  width: 280px;
+
+  @include media(desktop) {
+    &__nameList {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.17;
+      letter-spacing: 1px;
+      font-family: $_main_text_family;
+      color: #ffffff;
+    }
+    &__valueList {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.17;
+      letter-spacing: 1px;
+      font-family: $_second_text_family;
+      color: $_second_text_color;
+    }
+    &__availability {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.17;
+      letter-spacing: 1px;
+      font-family: $_second_text_family;
+      color: #000003;
+    }
+  }
 }
 
 .img {
