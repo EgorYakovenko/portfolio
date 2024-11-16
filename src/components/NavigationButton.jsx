@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
-import "../scss/navigation.scss";
+import "../scss/navigationButton.scss";
 
-export default function Navigation() {
+export default function NavigationButton() {
   return (
     <nav class="navigation">
       <NavLink className="navigation__nav" to="/">
@@ -19,7 +19,7 @@ export default function Navigation() {
           </text>
         </svg>
       </NavLink>
-      <NavLink className="navigation__nav" to="/">
+      <NavLink className="navigation__nav" to="/project">
         <svg width={200} height={40}>
           <image className="img" href="../../public/subtract.svg" x="0" y="0" />
 
@@ -34,7 +34,7 @@ export default function Navigation() {
           </text>
         </svg>
       </NavLink>
-      <NavLink className="navigation__nav" to="/">
+      <NavLink className="navigation__nav" to="/about">
         <svg width={200} height={40}>
           <image className="img" href="../../public/subtract.svg" x="0" y="0" />
 
@@ -49,7 +49,7 @@ export default function Navigation() {
           </text>
         </svg>
       </NavLink>
-      <NavLink className="navigation__nav" to="/">
+      <NavLink className="navigation__nav" to="/contact">
         <svg width={200} height={40}>
           <image className="img" href="../../public/subtract.svg" x="0" y="0" />
 
@@ -64,7 +64,7 @@ export default function Navigation() {
           </text>
         </svg>
       </NavLink>
-      <NavLink className="navigation__nav" to="/">
+      <NavLink className="navigation__nav" to="/fedback">
         <svg width={200} height={40}>
           <image className="img" href="../../public/subtract.svg" x="0" y="0" />
 

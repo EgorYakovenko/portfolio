@@ -1,6 +1,6 @@
 import HeroImg from "../components/HeroImg";
 import LeftBar from "../components/LeftBar";
-import Navigation from "../components/Navigation";
+import NavigationButton from "../components/NavigationButton";
 import RightBar from "../components/RightBar";
 import "../scss/containerHomePage.scss";
 
@@ -12,7 +12,7 @@ export default function () {
         <HeroImg />
         <RightBar />
       </div>
-      <Navigation />
+      <NavigationButton />
     </>
   );
 }
