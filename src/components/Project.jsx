@@ -1,8 +1,10 @@
 // коммандный проект Team project
 // Сделано лично Made personally Self-performed
 import "../scss/project.scss";
+import { getAllProject } from "../server/controllers";
 
 export default function Project() {
+  console.log(getAllProject());
   return (
     <>
       <p className="test">Project</p>
