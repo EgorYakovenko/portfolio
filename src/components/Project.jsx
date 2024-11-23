@@ -45,8 +45,20 @@ export default function Project() {
 
               <div>
                 <h2>name:{project.name}</h2>
-                <p>description:</p>
-                <p>technologien:</p>
+                <p>description: {project.description}</p>
+                {project.technologien.map((tech, index) => (
+                  <svg
+                    key={index}
+                    // className="card-container__project-icon"
+                    // class="advantages-icon"
+                    // aria-label="стратегия"
+                    // width="32"
+                    // height="32"
+                  >
+                    <use href={`${tech}`}></use>
+                  </svg>
+                ))}
+                {/* <p>technologien:</p> */}
               </div>
             </li>
           ))}
