@@ -8,6 +8,7 @@ import HeroImg from "./components/HeroImg";
 import { Route, Routes } from "react-router-dom";
 import Project from "./components/Project";
 import AbouteMe from "./components/AboutMe";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<HeroImg />} />
           <Route path="/project" element={<Project />} />
           <Route path="/about" element={<AbouteMe />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Layout>
     </>
