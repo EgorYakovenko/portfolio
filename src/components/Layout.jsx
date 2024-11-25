@@ -9,7 +9,8 @@ export default function Layout({ children }) {
     <>
       <div className="container">
         <LeftBar />
-        {children}
+        <div className="content-container">{children}</div>
+
         <RightBar />
       </div>
       <Navigation />

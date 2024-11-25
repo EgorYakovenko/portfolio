@@ -4,3 +4,11 @@
 
   //   align-items: ;
 }
+
+.content-container {
+  width: 1300px;
+  height: 800px;
+  // flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
