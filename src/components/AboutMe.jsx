@@ -7,7 +7,9 @@ export default function AbouteMe() {
         <h2>About me</h2>
         <ul className="aboute-list">
           <li className="aboute-list__item">
-            <h3>Немного о себе</h3>
+            <div>
+              <h3 className="aboute-list__title">Немного о себе</h3>
+            </div>
             <p>
               Меня зовут Егор, мне 37 лет. Я окончил Одесскую государственную
               академию строительства и архитектуры, где получил степень
