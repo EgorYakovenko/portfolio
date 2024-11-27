@@ -1,18 +1,45 @@
 @import "./common/mixins";
 @import "./common/vars";
 
-.aboute-list {
-  // display: flex;
-  display: inline-block;
-  text-align: left;
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   @include media(desktop) {
+    &__list {
+      padding: 30px;
+    }
     &__item {
       display: flex;
-      max-width: 700px;
+      justify-content: center;
+      margin-top: 30px;
     }
-
     &__title {
-      width: 150px;
+      margin-right: 50px;
+      width: 350px;
+    }
+    &__text {
+      width: 600px;
     }
   }
 }
+
+// .aboute {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   @include media(desktop) {
+//     &__item {
+//       display: flex;
+
+//       max-width: 400px;
+//     }
+//     &__title {
+//       // margin-right: 100px;
+//     }
+//   }
+// }
+// .test {
+//   display: flex;
+// }

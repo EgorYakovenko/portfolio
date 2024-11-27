@@ -3,14 +3,14 @@ import "../scss/aboutMe.scss";
 export default function AbouteMe() {
   return (
     <>
-      <section>
+      <section className="about">
         <h2>About me</h2>
-        <ul className="aboute-list">
-          <li className="aboute-list__item">
-            <div>
-              <h3 className="aboute-list__title">Немного о себе</h3>
-            </div>
-            <p>
+
+        <ul className="about__list">
+          <li className="about__item">
+            <h3 className="about__title">Немного о себе</h3>
+
+            <p className="about__text">
               Меня зовут Егор, мне 37 лет. Я окончил Одесскую государственную
               академию строительства и архитектуры, где получил степень
               специалиста. За свою карьеру я накопил 14 лет опыта в
@@ -28,9 +28,9 @@ export default function AbouteMe() {
               новой сфере и готов к новым вызовам.
             </p>
           </li>
-          <li className="aboute-list__item">
-            <h3>Образование в сфере IT</h3>
-            <p>
+          <li className="about__item">
+            <h3 className="about__title">Образование в сфере IT</h3>
+            <p className="about__text">
               В 2024 году я окончил 10-месячные курсы FullStack-разработки в
               школе GoIT. Этот период стал для меня временем интенсивного
               обучения и профессионального роста. Я старался максимально
@@ -49,14 +49,14 @@ export default function AbouteMe() {
               находить компромиссы и предлагать креативные решения.
             </p>
           </li>
-          <li className="aboute-list__item">
-            <h3>Технологии</h3>
+          <li className="about__item">
+            <h3 className="about__title">Технологии</h3>
             {/* рассписать технологии подробно */}
-            <p>HTML, CSS, JS, React, Node</p>
+            <p className="about__text">HTML, CSS, JS, React, Node</p>
           </li>
-          <li className="aboute-list__item">
-            <h3>Почему я решил стать программистом</h3>
-            <p>
+          <li className="about__item">
+            <h3 className="about__title">Почему я решил стать программистом</h3>
+            <p className="about__text">
               Я всегда любил создавать что-то новое, поэтому выбрал профессию,
               связанную с созданием и проектированием, — инженера-строителя. Эта
               работа научила меня мыслить системно, находить решения сложных
