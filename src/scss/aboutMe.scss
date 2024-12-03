@@ -6,21 +6,36 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   @include media(desktop) {
     &__list {
-      padding: 30px;
+      padding: 5px;
     }
     &__item {
       display: flex;
       justify-content: center;
-      margin-top: 30px;
+      margin-top: 20px;
     }
     &__title {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.17;
+      // letter-spacing: 1px;
+      font-family: $_main_text_family;
+      color: #7a7a7a;
       margin-right: 50px;
-      width: 350px;
+      text-transform: uppercase;
+      width: 250px;
     }
     &__text {
-      width: 600px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.17;
+      // letter-spacing: 1px;
+      font-family: $_main_text_family;
+      color: #ffffff;
+      text-transform: uppercase;
+      width: 700px;
     }
   }
 }

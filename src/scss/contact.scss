@@ -6,4 +6,12 @@
     display: flex;
     border: 1px solid red;
   }
+
+  @include media(desktop) {
+    &__contact-icon {
+      stroke: red;
+      // fill: green;
+      fill: hsla(249, 93%, 61%, 0.3);
+    }
+  }
 }

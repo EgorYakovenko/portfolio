@@ -6,7 +6,7 @@ export default function Contact() {
       <ul className="contact-list">
         <li className="contact-list__item">
           <svg
-            // className="card-container__project-icon"
+            className="contact-list__contact-icon"
             // class="advantages-icon"
             // aria-label="стратегия"
             width="32"
