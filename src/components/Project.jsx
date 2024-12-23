@@ -27,7 +27,7 @@ export default function Project() {
       <p>Project</p>
       <section>
         <div className="card">
-          <ul>
+          <ul className="card__list">
             {projects.map((project) => (
               <li className="card__item" key={project.id}>
                 {/* логотип проекта */}
@@ -42,16 +42,14 @@ export default function Project() {
                     <use href="../../public/svg/set.svg#icon-js"></use>
                   </svg>
 
-                  <div className="card__box_status">
+                  <div className="card__box_status_individual">
                     <p className="card__status">Individual</p>
                   </div>
                 </div>
 
                 <div className="card__info">
-                  <h2 className="card__name">name:{project.name}</h2>
-                  <p className="card__description">
-                    description: {project.description}
-                  </p>
+                  <h2 className="card__name">{project.name}</h2>
+                  <p className="card__description">{project.description}</p>
                   <div className="card__box_technologien">
                     {project.technologien.map((tech, index) => (
                       <svg

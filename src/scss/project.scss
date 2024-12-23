@@ -5,9 +5,17 @@
   display: flex;
   justify-content: center;
 
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
   &__item {
     display: flex;
-    border: 1px solid red;
+    // border: 3px solid #080808;
+    border: 1px solid #7dff68;
+    border-radius: 2px;
     padding: 10px;
   }
   &__logo {
@@ -25,9 +33,13 @@
     text-transform: uppercase;
     text-align: center;
   }
-  &__box_status {
-    background-color: aqua;
+  &__box_status_individual {
+    background-color: rgb(60, 182, 70);
   }
+  &__box_status_team {
+    background-color: rgb(212, 64, 64);
+  }
+
   &__info {
     margin-left: 20px;
     display: flex;
@@ -35,13 +47,35 @@
     justify-content: space-between;
   }
   &__name {
+    font-family: $_second_text_family;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $_second_text_color;
+    // text-align: center;
+
     padding-bottom: 5px;
   }
   &__description {
     padding-bottom: 17px;
+    font-family: $_main_text_family;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #7a7a7a;
+    text-align: center;
   }
   &__box_technologien {
-    background-color: aqua;
+    // background-color: aqua;
+    background: linear-gradient(
+      90deg,
+      rgba(39, 150, 59, 0.8407738095238095) 0%,
+      rgba(5, 5, 5, 1) 100%
+    );
   }
 }
 
