@@ -1,13 +1,36 @@
 @import "./common/mixins";
 @import "./common/vars";
 
+.contacts {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  padding-left: 150px;
+  padding-top: 150px;
+}
 .contact-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+  border: 1px solid red;
+  gap: 15px;
+  width: 250px;
+  padding-left: 50px;
+
   &__item {
     display: flex;
-    border: 1px solid red;
   }
 
   @include media(desktop) {
+    &__contact {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.17;
+      letter-spacing: 1px;
+      font-family: $_second_text_family;
+      color: $_second_text_color;
+    }
     &__contact-icon {
       stroke: red;
       // fill: green;
