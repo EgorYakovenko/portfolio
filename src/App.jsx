@@ -9,10 +9,12 @@ import { Route, Routes } from "react-router-dom";
 import Project from "./components/Project";
 import AbouteMe from "./components/AboutMe";
 import Contact from "./components/Contact";
+import Test from "./components/test";
 
 function App() {
   return (
     <>
+      {/* <Test /> */}
       {/* <HelloPage /> */}
 
       {/* <HomePage /> */}
