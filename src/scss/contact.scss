@@ -2,39 +2,83 @@
 @import "./common/vars";
 
 .contacts {
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-  padding-left: 150px;
-  padding-top: 150px;
-}
-.contact-list {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  // align-items: center;
-  border: 1px solid red;
-  gap: 15px;
-  width: 250px;
-  padding-left: 50px;
+  &__list {
+    align-items: center;
 
+    flex-direction: column;
+  }
   &__item {
     display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 15px;
+
+    backdrop-filter: blur(18px) saturate(18%);
+    // -webkit-backdrop-filter: blur(18px) saturate(18%);
+    background-color: rgba(46, 46, 46, 0.25);
+
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+    padding: 15px;
   }
 
-  @include media(desktop) {
-    &__contact {
-      font-size: 20px;
-      font-weight: 400;
-      line-height: 1.17;
-      letter-spacing: 1px;
-      font-family: $_second_text_family;
-      color: $_second_text_color;
-    }
-    &__contact-icon {
-      stroke: red;
-      // fill: green;
-      fill: hsla(249, 93%, 61%, 0.3);
-    }
+  &__icon {
+    // fill: white;
+    stroke: $_second_text_color;
+  }
+
+  &__contact {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 1px;
+    font-family: $_second_text_family;
+    color: $_second_text_color;
+
+    // padding: 10px;
+    // padding-left: 10px;
   }
 }
+
+// .contacts {
+
+//   padding-left: 150px;
+//   padding-top: 150px;
+// }
+// .contact-list {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+
+//   gap: 15px;
+//   width: 250px;
+//   padding-left: 50px;
+
+//   &__item {
+//     display: flex;
+//     backdrop-filter: blur(18px) saturate(18%);
+//     -webkit-backdrop-filter: blur(18px) saturate(18%);
+//     background-color: rgba(46, 46, 46, 0.47);
+
+//     border-radius: 12px;
+//     border: 1px solid rgba(255, 255, 255, 0.125);
+//   }
+
+//   @include media(desktop) {
+//     &__contact {
+//       font-size: 20px;
+//       font-weight: 400;
+//       line-height: 1.17;
+//       letter-spacing: 1px;
+//       font-family: $_second_text_family;
+//       color: $_second_text_color;
+//     }
+//     &__contact-icon {
+//       stroke: red;
+
+//     }
+//   }
+// }

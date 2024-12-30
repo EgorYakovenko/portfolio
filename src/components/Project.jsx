@@ -24,7 +24,7 @@ export default function Project() {
 
   return (
     <>
-      <p>Project</p>
+      {/* <p>Project</p> */}
       <section>
         <div className="card">
           <ul className="card__list">

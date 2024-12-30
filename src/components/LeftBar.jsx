@@ -4,7 +4,7 @@ export default function LeftBar() {
   return (
     <>
       <aside className="leftBar">
-        <img src="../../public/foto.png" alt="" width="160" />
+        {/* <img src="../../public/foto.png" alt="" width="160" /> */}
         <ul>
           <li>
             <p className="leftBar__nameList">NAME</p>

@@ -15,8 +15,21 @@
     display: flex;
     // border: 3px solid #080808;
     border: 1px solid #7dff68;
-    border-radius: 2px;
+    // border-radius: 2px;
     padding: 10px;
+
+    backdrop-filter: blur(18px) saturate(18%);
+    -webkit-backdrop-filter: blur(18px) saturate(18%);
+    // background-color: rgba(46, 46, 46, 0.25);
+
+    background: linear-gradient(
+      90deg,
+      rgba(25, 25, 25, 0.5) 0%,
+      rgba(232, 187, 74, 1) 300%
+    );
+
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
   }
   &__logo {
     display: flex;
@@ -71,11 +84,13 @@
   }
   &__box_technologien {
     // background-color: aqua;
-    background: linear-gradient(
-      90deg,
-      rgba(39, 150, 59, 0.8407738095238095) 0%,
-      rgba(5, 5, 5, 1) 100%
-    );
+    // background: linear-gradient(
+    //   90deg,
+    //   rgba(39, 150, 59, 0.8407738095238095) 0%,
+    //   rgba(5, 5, 5, 1) 100%
+
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    // );
   }
 }
 
