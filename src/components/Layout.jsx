@@ -1,19 +1,19 @@
-import LeftBar from "./LeftBar";
+// import LeftBar from "./LeftBar";
 import Navigation from "./NavigationButton";
-import RightBar from "./RightBar";
+// import RightBar from "./RightBar";
 
 import "../scss/containerHomePage.scss";
+import ContentBox from "./ContentBox";
 
 export default function Layout({ children }) {
   return (
     <>
       <div className="container">
-        <LeftBar />
+        {/* <LeftBar /> */}
+        {/* <ContentBox /> */}
         <div className="content-container">{children}</div>
-
-        <RightBar />
       </div>
-      <Navigation />
+      {/* <Navigation /> */}
     </>
   );
 }

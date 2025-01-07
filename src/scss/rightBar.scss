@@ -1,8 +1,0 @@
-@import "./common/mixins";
-@import "./common/vars";
-
-.rightBar {
-  display: flex;
-  justify-content: center;
-  border-left: 3px solid $_second_text_color;
-}

@@ -1,8 +1,12 @@
-@use "./helloPage.scss";
+// @use "./helloPage.scss";
 // @use "./common/reset";
 
 :root {
-  background: linear-gradient(45deg, rgb(0, 0, 0) 86%, rgb(214, 79, 79));
+  background: radial-gradient(
+    circle,
+    hsla(64, 54%, 80%, 1) 0%,
+    hsla(177, 100%, 9%, 1) 35%
+  );
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
