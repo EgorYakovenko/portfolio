@@ -1,19 +1,16 @@
-// import LeftBar from "./LeftBar";
-import Navigation from "./NavigationButton";
-// import RightBar from "./RightBar";
+// import Navigation from "./NavigationButton";
+// import "../scss/layout.scss";
+// import UserLocationInfo from "./UserLocationInfo";
+// import Contact from "./Contact";
 
-import "../scss/containerHomePage.scss";
-import ContentBox from "./ContentBox";
-
-export default function Layout({ children }) {
-  return (
-    <>
-      <div className="container">
-        {/* <LeftBar /> */}
-        {/* <ContentBox /> */}
-        <div className="content-container">{children}</div>
-      </div>
-      {/* <Navigation /> */}
-    </>
-  );
-}
+// export default function Layout({ children }) {
+//   return (
+//     <>
+//       <div className="container">
+//         <UserLocationInfo />
+//         <main className="content main">{children}</main>
+//         {/* </UserLocationInfo> */}
+//       </div>
+//     </>
+//   );
+// }

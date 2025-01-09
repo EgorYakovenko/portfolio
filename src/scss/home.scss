@@ -1,13 +1,5 @@
-// EFF1C5
-
-.location {
-  background-color: #202030;
-  opacity: 0.7;
-  &__data {
-    color: #eff1c5;
-  }
-
-  &__top {
-    display: flex;
-  }
+.home {
+  //   display: grid;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
 }

@@ -1,36 +1,59 @@
-import "./App.css";
-// import HelloPage from "./page/HelloPage";
-// import Home from "./components/LeftBar";
-// import HomePage from "./page/HomePage";
-// import Navigation from "./components/NavigationButton";
-import Layout from "./components/layout";
-// import HeroImg from "./components/HeroImg";
+// import "./App.css";
+import "./scss/userLocationInfo.scss";
+import "./scss/layout.scss";
+
+// import Layout from "./components/layout";
 import { Route, Routes } from "react-router-dom";
+// import UserLocationInfo from "./components/UserLocationInfo";
 import Home from "./components/Home";
-// import Project from "./components/Project";
-// import AbouteMe from "./components/AboutMe";
-// import Contact from "./components/Contact";
-// import Test from "./components/test";
 
 function App() {
   return (
     <>
-      {/* <Test /> */}
-      {/* <HelloPage /> */}
+      <div className="container">
+        <ul className="location ">
+          <div className="location__left-top header">
+            <li>longitude ~ 28.6542</li>
+            <li>latitude ~ 77.2373</li>
+          </div>
 
-      {/* <HomePage /> */}
-      {/* <Navigation /> */}
-      <Home />
-      <Layout>
-        <Routes>
-          {/* <Route path="/" element={<HeroImg />} /> */}
-          {/* <Route path="/project" element={<Project />} /> */}
-          {/* <Route path="/about" element={<AbouteMe />} /> */}
-          {/* <Route path="/contact" element={<Contact />} /> */}
-        </Routes>
-      </Layout>
+          <div className="location__right-top header">
+            <li>Chrome v119.0.0.0 ~ Browser</li>
+            <li>Window 10 ~ OS</li>
+          </div>
+          <Home />
+          <div className="location__left-bottom footer">
+            <li>Local Time ~ 16:05</li>
+            <li>Time Spend ~ 00:05</li>
+          </div>
+          <div className="location__right-bottom footer">
+            <li>122.161.53.938 ~ IP</li>
+            <li>Delhi, India ~ Location</li>
+          </div>
+        </ul>
+      </div>
+      {/* <Layout></Layout> */}
     </>
   );
 }
 
 export default App;
+
+//  {
+//    /* <Routes> */
+//  }
+//  {
+//    /* <Route path="/" element={<HeroImg />} /> */
+//  }
+//  {
+//    /* <Route path="/project" element={<Project />} /> */
+//  }
+//  {
+//    /* <Route path="/about" element={<AbouteMe />} /> */
+//  }
+//  {
+//    /* <Route path="/contact" element={<Contact />} /> */
+//  }
+//  {
+//    /* </Routes> */
+//  }
