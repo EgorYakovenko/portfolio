@@ -32,15 +32,7 @@ export default function Project() {
               <li className="card__item" key={project.id}>
                 {/* логотип проекта */}
                 <div>
-                  <svg
-                    className="card__logo"
-                    // class="advantages-icon"
-                    // aria-label="стратегия"
-                    width="84"
-                    height="84"
-                  >
-                    <use href="../../public/svg/set.svg#icon-js"></use>
-                  </svg>
+                  <img src="../../public/project_prev/web-studio.png" alt="" />
 
                   <div className="card__box_status_individual">
                     <p className="card__status">Individual</p>
@@ -50,20 +42,6 @@ export default function Project() {
                 <div className="card__info">
                   <h2 className="card__name">{project.name}</h2>
                   <p className="card__description">{project.description}</p>
-                  <div className="card__box_technologien">
-                    {project.technologien.map((tech, index) => (
-                      <svg
-                        key={index}
-                        // className="card-container__project-icon"
-                        // class="advantages-icon"
-                        // aria-label="стратегия"
-                        width="32"
-                        height="32"
-                      >
-                        <use href={`${tech}`}></use>
-                      </svg>
-                    ))}
-                  </div>
 
                   {/* <p>technologien:</p> */}
                 </div>
@@ -75,6 +53,14 @@ export default function Project() {
     </>
   );
 }
+
+//  <div className="card__box_technologien">
+//    {project.technologien.map((tech, index) => (
+//      <svg key={index} width="32" height="32">
+//        <use href={`${tech}`}></use>
+//      </svg>
+//    ))}
+//  </div>;
 
 // return (
 //   <>

@@ -2,4 +2,16 @@
   //   display: grid;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+
+  &__hello {
+    font-size: 48px;
+  }
+
+  &__name {
+    font-size: 64px;
+  }
+
+  &__prof {
+    font-size: 24px;
+  }
 }

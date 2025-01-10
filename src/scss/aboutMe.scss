@@ -1,46 +1,45 @@
 @import "./common/mixins";
 @import "./common/vars";
 
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+// .about {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
 
-  @include media(desktop) {
-    &__list {
-      padding: 5px;
-    }
-    &__item {
-      display: flex;
-      justify-content: center;
-      margin-top: 20px;
-    }
-    &__title {
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 1.17;
-      // letter-spacing: 1px;
-      font-family: $_main_text_family;
-      color: #7a7a7a;
-      margin-right: 50px;
-      text-transform: uppercase;
-      width: 250px;
-    }
-    &__text {
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 1.17;
-      // letter-spacing: 1px;
-      font-family: $_main_text_family;
-      // color: #f50303;
+//   @include media(desktop) {
+//     &__list {
+//       padding: 5px;
+//     }
+//     &__item {
+//       display: flex;
+//       justify-content: center;
+//       margin-top: 20px;
+//     }
+//     &__title {
+//       font-size: 16px;
+//       font-weight: 400;
+//       line-height: 1.17;
 
-      color: #ffffff;
-      text-transform: uppercase;
-      width: 700px;
-    }
-  }
-}
+//       font-family: $_main_text_family;
+//       color: #7a7a7a;
+//       margin-right: 50px;
+//       text-transform: uppercase;
+//       width: 250px;
+//     }
+//     &__text {
+//       font-size: 16px;
+//       font-weight: 400;
+//       line-height: 1.17;
+
+//       font-family: $_main_text_family;
+
+//       color: #ffffff;
+//       text-transform: uppercase;
+//       width: 700px;
+//     }
+//   }
+// }
 
 // .aboute {
 //   display: flex;
