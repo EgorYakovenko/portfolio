@@ -2,8 +2,10 @@
 
 .location {
   display: grid;
-  grid-template-columns: repeat(3, minmax(100px, 1fr));
-  grid-template-rows: repeat(3, minmax(100px, 1fr));
+  // grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 1fr 10fr 1fr;
+  // grid-template-rows: repeat(3, minmax(100px, 1fr));
 
   color: aliceblue;
   border-radius: 50px;

@@ -2,14 +2,12 @@
 @import "./common/vars";
 
 .navigation {
-  @include media(desktop) {
-    display: flex;
-    justify-content: center;
-    // align-items: center;
-    gap: 15px;
-  }
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-around;
+  align-items: end;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
 
-  &__nav {
-    border-left: 3px solid $_second_text_color;
-  }
+  border: 2px solid red;
 }

@@ -3,7 +3,7 @@ import "../scss/navigationButton.scss";
 
 export default function NavigationButton() {
   return (
-    <nav class="navigation">
+    <nav className="navigation">
       <NavLink className="navigation__nav" to="/">
         Home
       </NavLink>
@@ -16,9 +16,9 @@ export default function NavigationButton() {
       <NavLink className="navigation__nav" to="/contact">
         Contact
       </NavLink>
-      <NavLink className="navigation__nav" to="/fedback">
+      {/* <NavLink className="navigation__nav" to="/fedback">
         Fedback
-      </NavLink>
+      </NavLink> */}
     </nav>
   );
 }

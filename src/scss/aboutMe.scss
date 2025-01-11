@@ -1,6 +1,17 @@
 @import "./common/mixins";
 @import "./common/vars";
 
+.about {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  overflow: hidden;
+  //   overflow-y: scroll;
+  &__text {
+    color: aqua;
+  }
+}
+
 // .about {
 //   display: flex;
 //   justify-content: center;
