@@ -2,11 +2,76 @@
 @import "./common/vars";
 
 .contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  //   margin-top: 50%;
+  align-items: center;
+  justify-items: center;
+
+  &__doit {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 20px;
+  }
+
+  &__propose {
+    font-size: 64px;
+    margin-bottom: 55px;
+  }
+
+  &__details {
+    display: flex;
+    align-items: center;
+  }
+
+  &__foto {
+    width: 120px;
+    border: 5px solid #eff1c5;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  &__name {
+    font-size: 24px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  &__email {
+    font-size: 18px;
+    padding-left: 20px;
+  }
+
   &__form-container {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    // justify-content: center;
+
+    min-width: 400px;
     background-color: rgb(66, 66, 66);
+    border-radius: 40px;
+    padding: 20px;
+  }
+  &__input {
+    max-width: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  &__area {
+    max-width: 350px;
+    max-height: 210px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  &__button {
+    max-width: 210px;
+    padding: 10px 67px;
+    border-radius: 20px;
+    margin: 0 auto;
   }
 }
 // .contacts {

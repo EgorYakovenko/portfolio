@@ -9,10 +9,20 @@ export default function Contact() {
   return (
     <>
       <section className="contacts">
-        <h2 className="contacts__propose">LET´S MAKE SOMETHING AMAZING!</h2>
-        <img src="../../public/foto.png" alt="" width={120} />
-        <p className="contacts__name">Egor Yakovenko</p>
-        <p className="contacts__email">Egor.Yakovenko@ukr.net</p>
+        <div className="contacts__doit">
+          <h2 className="contacts__propose">LET´S MAKE SOMETHING AMAZING!</h2>
+          <div className="contacts__details">
+            <img
+              className="contacts__foto"
+              src="../../public/foto.png"
+              alt=""
+            />
+            <div>
+              <p className="contacts__name">Egor Yakovenko</p>
+              <p className="contacts__email">Egor.Yakovenko@ukr.net</p>
+            </div>
+          </div>
+        </div>
 
         <Formik
           initialValues={{
@@ -23,12 +33,25 @@ export default function Contact() {
           onSubmit={handleSubmit}
         >
           <Form className="contacts__form-container">
-            <Field className="contacts__input" type="text" name="name"></Field>
-            <Field className="contacts__input" type="email" name="mail"></Field>
+            <Field
+              className="contacts__input"
+              type="text"
+              name="name"
+              placeholder="name"
+            ></Field>
+            <Field
+              className="contacts__input"
+              type="email"
+              name="mail"
+              placeholder="Email"
+            ></Field>
             <Field
               className="contacts__area"
+              as="textarea"
+              rows="15"
               type="text"
               name="message"
+              placeholder="message"
             ></Field>
             <button className="contacts__button" type="submit">
               Submit
