@@ -4,21 +4,23 @@ import "../scss/navigationButton.scss";
 export default function NavigationButton() {
   return (
     <nav className="navigation">
-      <NavLink className="navigation__nav" to="/">
-        Home
-      </NavLink>
-      <NavLink className="navigation__nav" to="/project">
-        Project
-      </NavLink>
-      <NavLink className="navigation__nav" to="/about">
-        About
-      </NavLink>
-      <NavLink className="navigation__nav" to="/contact">
-        Contact
-      </NavLink>
-      {/* <NavLink className="navigation__nav" to="/fedback">
+      <div className="navigation__button">
+        <NavLink className="navigation__nav" to="/">
+          Home
+        </NavLink>
+        <NavLink className="navigation__nav" to="/project">
+          Project
+        </NavLink>
+        <NavLink className="navigation__nav" to="/about">
+          About
+        </NavLink>
+        <NavLink className="navigation__nav" to="/contact">
+          Contact
+        </NavLink>
+        {/* <NavLink className="navigation__nav" to="/fedback">
         Fedback
       </NavLink> */}
+      </div>
     </nav>
   );
 }
