@@ -2,11 +2,22 @@
 // @use "./common/reset";
 
 :root {
-  background: radial-gradient(
-    circle,
-    hsla(64, 54%, 80%, 1) 0%,
-    rgb(29, 29, 29) 35%
-  );
+  // background: radial-gradient(
+  //   circle,
+  //   hsla(64, 54%, 80%, 1) 0%,
+  //   rgb(29, 29, 29) 35%
+  // );
+
+  // background: url("../../public/project_prev/backdrop.jpg");
+  // // opacity: 0.5;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // width: 100%;
+  // height: 100%;
+  // pointer-events: none;
+  // z-index: 1000;
+
   background-repeat: no-repeat;
   background-size: cover;
 }

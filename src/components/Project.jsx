@@ -30,18 +30,15 @@ export default function Project() {
           <ul className="card__list">
             {projects.map((project) => (
               <li className="card__item" key={project.id}>
-                {/* логотип проекта */}
-                <div>
-                  <img src="../../public/project_prev/web-studio.png" alt="" />
-
-                  <div className="card__box_status_individual">
-                    <p className="card__status">Individual</p>
-                  </div>
-                </div>
-
                 <div className="card__info">
-                  <h2 className="card__name">{project.name}</h2>
+                  <div>
+                    <h2 className="card__name">{project.name}</h2>
+                    <p className="card__status">{project.developer}</p>
+                  </div>
                   <p className="card__description">{project.description}</p>
+                  <div className="card__link">
+                    <a href=""></a>
+                  </div>
 
                   {/* <p>technologien:</p> */}
                 </div>
@@ -53,6 +50,21 @@ export default function Project() {
     </>
   );
 }
+
+//  <div className="card__box_technologien">
+//    {project.technologien.map((tech, index) => (
+//      <svg
+//        key={index}
+//        // className="card-container__project-icon"
+//        // class="advantages-icon"
+//        // aria-label="стратегия"
+//        width="32"
+//        height="32"
+//      >
+//        <use href={`${tech}`}></use>
+//      </svg>
+//    ))}
+//  </div>;
 
 //  <div className="card__box_technologien">
 //    {project.technologien.map((tech, index) => (

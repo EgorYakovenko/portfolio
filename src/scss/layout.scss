@@ -1,18 +1,11 @@
 .container {
-  //   background-color: #202030;
   opacity: 0.7;
   height: 100vh;
-  //   margin: 50px;
+
   padding: 50px;
-
-  //   display: grid;
-  //   grid-template-columns: repeat(3, 1fr);
-  //   grid-template-rows: repeat(3, 1fr);
-
-  //   grid-template-areas:
-  //     "header . header "
-  //     ". main . "
-  //     "sidebar . footer ";
+  position: relative; /* Контейнер должен быть выше слоя фона */
+  z-index: 1; /* Устанавливаем слой контента */
+  // background-image: url("../../public/project_prev/vintage.png");
 }
 
 // background: url("../../public/project_prev/noise.png");
