@@ -34,6 +34,7 @@ export default function Contact() {
         >
           <Form className="contacts__form-container">
             <Field
+              as="input"
               className="contacts__input"
               type="text"
               name="name"

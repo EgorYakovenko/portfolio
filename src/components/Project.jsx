@@ -30,14 +30,26 @@ export default function Project() {
           <ul className="card__list">
             {projects.map((project) => (
               <li className="card__item" key={project.id}>
-                <div className="card__info">
-                  <div>
+                <div className="card__title">
+                  <div className="card__name">
                     <h2 className="card__name">{project.name}</h2>
                     <p className="card__status">{project.developer}</p>
                   </div>
-                  <p className="card__description">{project.description}</p>
-                  <div className="card__link">
-                    <a href=""></a>
+                  <div className="card__info">
+                    <p className="card__description">{project.description}</p>
+                    {/* ссылки  */}
+                    <div className="card__link">
+                      <a href="">View Project </a>
+                      <a href="">View Code </a>
+                    </div>
+                    {/* технологии  */}
+                    <div className="card__tech">
+                      {project.technologien.map((tech, index) => (
+                        <li key={index}>
+                          <p>{tech}</p>
+                        </li>
+                      ))}
+                    </div>
                   </div>
 
                   {/* <p>technologien:</p> */}

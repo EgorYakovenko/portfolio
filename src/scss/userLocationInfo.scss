@@ -7,7 +7,7 @@
   grid-template-rows: 1fr 10fr 1fr;
   // grid-template-rows: repeat(3, minmax(100px, 1fr));
 
-  color: aliceblue;
+  color: #00ff00;
   border: 3px solid rgb(0, 180, 9);
   // border-radius: 50px;
   height: 100%;
@@ -16,7 +16,7 @@
   padding: 35px 20px;
 
   &__data {
-    color: #eff1c5;
+    color: #00ff00;
   }
   &__left-top {
     grid-column: 1 / 2;
