@@ -1,18 +1,17 @@
 // EFF1C5
 
 .location {
-  display: grid;
   // grid-template-columns: repeat(3, minmax(100px, 1fr));
-  grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 1fr 10fr 1fr;
+  // grid-template-columns: 1fr 5fr 1fr;
+  // grid-template-rows: 1fr 10fr 1fr;
   // grid-template-rows: repeat(3, minmax(100px, 1fr));
-
+  // border-radius: 50px;
+  // background-color: #202030;
+  display: grid;
   color: #00ff00;
   border: 3px solid rgb(0, 180, 9);
-  // border-radius: 50px;
   height: 100%;
-  width: 100%;
-  // background-color: #202030;
+  // width: 100%;
   padding: 35px 20px;
 
   &__data {

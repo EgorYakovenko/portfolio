@@ -6,9 +6,10 @@
   // justify-content: center;
   // align-items: center;
   align-content: center;
+  // object-fit: contain;
   // justify-items: center;
   &__hello {
-    margin-left: 350px;
+    // margin-left: 350px;
     margin-bottom: 35px;
     font-size: 48px;
     font-weight: 400;
@@ -17,14 +18,14 @@
 
   &__name {
     margin-bottom: 50px;
-    margin-left: 450px;
+    // margin-left: 450px;
     font-weight: 700;
     font-family: $_main_text_family;
     font-size: 64px;
   }
 
   &__prof {
-    margin-left: 350px;
+    // margin-left: 350px;
     font-size: 24px;
     font-weight: 400;
     font-family: $_second_text_family;

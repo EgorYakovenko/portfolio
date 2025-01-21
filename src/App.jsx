@@ -15,7 +15,7 @@ import Noise from "./components/Noise";
 function App() {
   return (
     <>
-      <Noise />
+      {/* <Noise /> */}
       <div className="noise">
         <div className="container">
           <ul className="location ">

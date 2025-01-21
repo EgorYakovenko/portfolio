@@ -3,15 +3,13 @@
 
 .contacts {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  //   margin-top: 50%;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   align-items: center;
   justify-items: center;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
 
   &__doit {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
     padding: 20px;
   }
 
@@ -26,7 +24,7 @@
   }
 
   &__foto {
-    width: 120px;
+    max-width: 100px;
     border: 2px solid #00ff00;
     padding: 10px;
     border-radius: 20px;
@@ -47,41 +45,31 @@
   &__form-container {
     display: flex;
     flex-direction: column;
-    // justify-content: center;
     border: 2px solid #00ff00;
-    min-width: 400px;
+    max-width: 400px;
     background-color: transparent;
-    // border-radius: 40px;
     padding: 20px;
   }
   &__input {
     max-width: 350px;
     padding: 10px;
     margin-bottom: 20px;
-    // border-radius: 20px;
     border: 2px solid;
     border-color: #00ff00;
     background-color: transparent;
   }
 
-  // &__input:focus {
-  //   border: 2px solid #aa0000;
-  // }
   &__input:focus,
   &__input:hover {
     outline: none;
     border-color: #aa0000;
   }
 
-  // &__input:focus {
-  //   border-color: #aa0000;
-  // }
   &__area {
     max-width: 350px;
     max-height: 210px;
     padding: 10px;
     margin-bottom: 20px;
-    // border-radius: 20px;
     background-color: transparent;
     border: 2px solid #00ff00;
   }
@@ -95,7 +83,6 @@
   &__button {
     max-width: 210px;
     padding: 10px 67px;
-    // border-radius: 20px;
     color: #00ff00;
     margin: 0 auto;
     background-color: transparent;
@@ -107,6 +94,7 @@
     background-color: #00ff00;
   }
 }
+
 // .contacts__input:hover:focus {
 //   border: 2px solid #aa0000;
 // }

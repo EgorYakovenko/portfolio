@@ -1,10 +1,10 @@
 .container {
-  opacity: 0.7;
+  // opacity: 0.7;
   height: 100vh;
 
   padding: 50px;
-  position: relative; /* Контейнер должен быть выше слоя фона */
-  z-index: 1; /* Устанавливаем слой контента */
+  // position: relative; /* Контейнер должен быть выше слоя фона */
+  // z-index: 1; /* Устанавливаем слой контента */
   // background-image: url("../../public/project_prev/vintage.png");
 }
 
