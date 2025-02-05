@@ -33,6 +33,7 @@ export default function Contact() {
           onSubmit={handleSubmit}
         >
           <Form className="contacts__form-container">
+            {/* <div className="contacts__input-container"> */}
             <Field
               as="input"
               className="contacts__input"
@@ -54,6 +55,8 @@ export default function Contact() {
               name="message"
               placeholder="message"
             ></Field>
+            {/* </div> */}
+
             <button className="contacts__button" type="submit">
               Submit
             </button>

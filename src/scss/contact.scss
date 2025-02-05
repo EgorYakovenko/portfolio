@@ -51,7 +51,7 @@
     padding: 20px;
   }
   &__input {
-    max-width: 350px;
+    width: 350px;
     padding: 10px;
     margin-bottom: 20px;
     border: 2px solid;
@@ -67,7 +67,7 @@
 
   &__area {
     max-width: 350px;
-    max-height: 210px;
+    // max-height: 210px;
     padding: 10px;
     margin-bottom: 20px;
     background-color: transparent;
@@ -81,7 +81,7 @@
   }
 
   &__button {
-    max-width: 210px;
+    // max-width: 210px;
     padding: 10px 67px;
     color: #00ff00;
     margin: 0 auto;
@@ -93,6 +93,9 @@
     color: black;
     background-color: #00ff00;
   }
+
+  // &__input-container {
+  // }
 }
 
 // .contacts__input:hover:focus {
