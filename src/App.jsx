@@ -23,7 +23,6 @@ function App() {
               <li className="location__data">longitude ~ 28.6542</li>
               <li className="location__data">latitude ~ 77.2373</li>
             </div>
-
             <div className="location__right-top header">
               <li className="location__data">Chrome v119.0.0.0 ~ Browser</li>
               <li className="location__data">Window 10 ~ OS</li>

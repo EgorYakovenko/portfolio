@@ -11,7 +11,7 @@
   }
   &::-webkit-scrollbar-thumb {
     border-radius: 3px;
-    border: 3px solid #eff1c5;
+    border: 3px solid #00a000;
   }
 
   // display: grid;
@@ -33,7 +33,7 @@
 
   &__item {
     width: 700px;
-    border: 2px solid #00ff00;
+    border: 2px solid #00a000;
   }
 
   &__name {
@@ -46,7 +46,8 @@
 
   &__title {
     display: flex;
-    background-color: #00ff00;
+    // background-color: #00a000;
+    color: #00a000;
     padding: 5px;
     margin: 5px;
     gap: 10px;
@@ -58,7 +59,7 @@
   &__link a {
     // display: flex;
     // flex-direction: column;
-    border: 2px solid black;
+    border: 2px solid #00a000;
     margin-right: 20px;
     padding: 3px;
   }
