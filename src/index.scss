@@ -17,6 +17,11 @@
 //   // grid-template-rows: repeat(3, minmax(100px, 1fr));
 // }
 
+body {
+  margin: 0;
+  background-color: black;
+}
+
 body::after {
   content: "";
   position: fixed;
@@ -25,8 +30,8 @@ body::after {
 
   width: 100vw;
   height: 100vh;
-  background: url("../public/project_prev/vintagesvg.svg");
-  filter: invert(1) sepia(1) hue-rotate(180deg) saturate(3);
+  // background: url("../public/project_prev/vintagesvg.svg");
+  // filter: invert(1) sepia(1) hue-rotate(180deg) saturate(3);
   z-index: 100; /* Чтобы оставалась фоном */
   pointer-events: none;
   margin: 0;

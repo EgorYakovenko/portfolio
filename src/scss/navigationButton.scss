@@ -12,15 +12,15 @@
   &__button {
     display: flex;
     gap: 46px;
-    background-color: #3d3d3d;
+    background-color: rgba(172, 117, 0, 0.4);
     padding: 17px 60px;
-    border-radius: 50px;
+    // border-radius: 50px;
   }
   &__nav {
     font-family: $_main_text_family;
     font-weight: 700;
     font-size: 20px;
     // text-align: center;
-    color: #fff;
+    color: $_main_title_color;
   }
 }

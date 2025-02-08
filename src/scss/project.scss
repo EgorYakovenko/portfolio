@@ -11,7 +11,7 @@
   }
   &::-webkit-scrollbar-thumb {
     border-radius: 3px;
-    border: 3px solid #00a000;
+    border: 3px solid $_main_text_color;
   }
 
   // display: grid;
@@ -33,7 +33,7 @@
 
   &__item {
     width: 700px;
-    border: 2px solid #00a000;
+    border: 2px solid $_main_title_color;
   }
 
   &__name {
@@ -46,8 +46,8 @@
 
   &__title {
     display: flex;
-    // background-color: #00a000;
-    color: #00a000;
+    // background-color: rgba(172, 117, 0, 0.2);
+    color: $_main_title_color;
     padding: 5px;
     margin: 5px;
     gap: 10px;
@@ -59,7 +59,7 @@
   &__link a {
     // display: flex;
     // flex-direction: column;
-    border: 2px solid #00a000;
+    border: 2px solid $_main_title_color;
     margin-right: 20px;
     padding: 3px;
   }

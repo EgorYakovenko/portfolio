@@ -14,7 +14,7 @@ export default function Contact() {
           <div className="contacts__details">
             <img
               className="contacts__foto"
-              src="../../public/foto.png"
+              src="../../public/photo2.jpg"
               alt=""
             />
             <div>

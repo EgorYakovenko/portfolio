@@ -1,5 +1,5 @@
 // EFF1C5
-
+@import "./common/vars";
 .location {
   // grid-template-columns: repeat(3, minmax(100px, 1fr));
   // grid-template-columns: 1fr 5fr 1fr;
@@ -8,14 +8,14 @@
   // border-radius: 50px;
   // background-color: #202030;
   display: grid;
-  color: #00a000;
-  border: 3px solid rgb(0, 180, 9);
+  color: $_main_text_color;
+  border: 3px solid $_main_title_color;
   height: 100%;
   // width: 100%;
   padding: 35px 20px;
 
   &__data {
-    color: #00a000;
+    color: $_main_text_color;
   }
   &__left-top {
     grid-column: 1 / 2;

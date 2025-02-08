@@ -1,19 +1,19 @@
-.noise-container {
-  position: fixed; /* Закрепляет контейнер на весь экран */
-  top: 0;
-  left: 0;
-  width: 100vw; /* Полная ширина вьюпорта */
-  height: 100vh; /* Полная высота вьюпорта */
-  // overflow: hidden; /* Убирает лишнее */
-}
+// .noise-container {
+//   position: fixed; /* Закрепляет контейнер на весь экран */
+//   top: 0;
+//   left: 0;
+//   width: 100vw; /* Полная ширина вьюпорта */
+//   height: 100vh; /* Полная высота вьюпорта */
+//   // overflow: hidden; /* Убирает лишнее */
+// }
 
-.noise {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%; /* Растягивает изображение по ширине */
-  height: 100%; /* Растягивает изображение по высоте */
-  // object-fit: cover; /* Сохраняет пропорции, заполнит область без искажений */
+// .noise {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%; /* Растягивает изображение по ширине */
+//   height: 100%; /* Растягивает изображение по высоте */
+//   // object-fit: cover; /* Сохраняет пропорции, заполнит область без искажений */
 
-  background-color: black;
-}
+//   background-color: black;
+// }

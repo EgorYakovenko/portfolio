@@ -24,11 +24,11 @@
   }
 
   &__foto {
-    max-width: 100px;
-    border: 2px solid #00a000;
+    max-width: 150px;
+    border: 2px solid $_main_title_color;
     padding: 10px;
-    border-radius: 20px;
-    background-color: white;
+    // border-radius: 20px;
+    // background-color: rgba(172, 117, 0, 0.5);
   }
 
   &__name {
@@ -45,7 +45,7 @@
   &__form-container {
     display: flex;
     flex-direction: column;
-    border: 2px solid #00ff00;
+    border: 2px solid $_main_title_color;
     max-width: 400px;
     background-color: transparent;
     padding: 20px;
@@ -55,7 +55,8 @@
     padding: 10px;
     margin-bottom: 20px;
     border: 2px solid;
-    border-color: #00ff00;
+    color: $_main_text_color;
+    border-color: $_main_title_color;
     background-color: transparent;
   }
 
@@ -71,7 +72,8 @@
     padding: 10px;
     margin-bottom: 20px;
     background-color: transparent;
-    border: 2px solid #00ff00;
+    color: $_main_text_color;
+    border: 2px solid $_main_title_color;
   }
 
   &__area:focus,
@@ -83,15 +85,15 @@
   &__button {
     // max-width: 210px;
     padding: 10px 67px;
-    color: #00ff00;
+    color: $_main_text_color;
     margin: 0 auto;
     background-color: transparent;
-    border: 2px solid #00ff00;
+    border: 2px solid $_main_text_color;
   }
 
   &__button:hover {
     color: black;
-    background-color: #00ff00;
+    background-color: $_main_title_color;
   }
 
   // &__input-container {

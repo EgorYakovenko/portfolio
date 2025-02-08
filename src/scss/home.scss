@@ -14,6 +14,7 @@
     font-size: 48px;
     font-weight: 400;
     font-family: $_main_text_family;
+    color: $_main_text_color;
   }
 
   &__name {
@@ -22,6 +23,7 @@
     font-weight: 700;
     font-family: $_main_text_family;
     font-size: 64px;
+    color: $_main_title_color;
   }
 
   &__prof {
@@ -29,7 +31,7 @@
     font-size: 24px;
     font-weight: 400;
     font-family: $_second_text_family;
-    color: #00a000;
+    color: $_main_text_color;
     text-transform: uppercase;
   }
 }

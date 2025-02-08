@@ -16,35 +16,35 @@ function App() {
   return (
     <>
       {/* <Noise /> */}
-      <div className="noise">
-        <div className="container">
-          <ul className="location ">
-            <div className="location__left-top header">
-              <li className="location__data">longitude ~ 28.6542</li>
-              <li className="location__data">latitude ~ 77.2373</li>
-            </div>
-            <div className="location__right-top header">
-              <li className="location__data">Chrome v119.0.0.0 ~ Browser</li>
-              <li className="location__data">Window 10 ~ OS</li>
-            </div>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/project" element={<Project />} />
-              <Route path="/about" element={<AbouteMe />} />
-              <Route path="/contact" element={<Contact />} />
-            </Routes>
-            <NavigationButton />
-            <div className="location__left-bottom footer">
-              <li className="location__data">Local Time ~ 16:05</li>
-              <li className="location__data">Time Spend ~ 00:05</li>
-            </div>
-            <div className="location__right-bottom footer">
-              <li className="location__data">122.161.53.938 ~ IP</li>
-              <li className="location__data">Delhi, India ~ Location</li>
-            </div>
-          </ul>
-        </div>
+      {/* <div className="noise"> */}
+      <div className="container">
+        <ul className="location ">
+          <div className="location__left-top header">
+            <li className="location__data">longitude ~ 28.6542</li>
+            <li className="location__data">latitude ~ 77.2373</li>
+          </div>
+          <div className="location__right-top header">
+            <li className="location__data">Chrome v119.0.0.0 ~ Browser</li>
+            <li className="location__data">Window 10 ~ OS</li>
+          </div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/project" element={<Project />} />
+            <Route path="/about" element={<AbouteMe />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <NavigationButton />
+          <div className="location__left-bottom footer">
+            <li className="location__data">Local Time ~ 16:05</li>
+            <li className="location__data">Time Spend ~ 00:05</li>
+          </div>
+          <div className="location__right-bottom footer">
+            <li className="location__data">122.161.53.938 ~ IP</li>
+            <li className="location__data">Delhi, India ~ Location</li>
+          </div>
+        </ul>
       </div>
+      {/* </div> */}
     </>
   );
 }
